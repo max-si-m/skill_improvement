@@ -18,6 +18,3 @@ module AbstractFactory
     end
   end
 end
-
-generator_factory = AbstractFactory::GeneratorFactories::Html.new('some long string')
-p AbstractFactory::ReportGenerator.new(generator_factory).generate
